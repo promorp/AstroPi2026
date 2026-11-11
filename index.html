@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astro Pi 2026</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: #e8eaf0;
+      background: #0b1020;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+    h1 { font-size: 2.4rem; margin: 0 0 0.5rem; }
+    .tagline { color: #9aa3b8; font-size: 1.1rem; margin: 0 0 2.5rem; }
+    h2 { font-size: 1.3rem; margin-top: 2.5rem; }
+    .files {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .file {
+      display: block;
+      padding: 1.2rem 1.4rem;
+      background: #151c33;
+      border: 1px solid #252e4d;
+      border-radius: 10px;
+      color: inherit;
+      text-decoration: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .file:hover { border-color: #5b7cfa; background: #1a2240; }
+    .file strong { display: block; font-size: 1.1rem; }
+    .file span { color: #9aa3b8; font-size: 0.95rem; }
+    a { color: #8ea6ff; }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #6b7390;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Astro Pi 2026</h1>
+    <p class="tagline">Materialer til Astro Pi-forløbet: slides, kode og opgaver.</p>
+
+    <h2>Om projektet</h2>
+    <p>
+      Astro Pi er en udfordring fra ESA og Raspberry Pi Foundation, hvor elever
+      skriver kode, der kan køre på Raspberry Pi-computere ombord på Den
+      Internationale Rumstation (ISS). Her finder du alt materialet til forløbet.
+    </p>
+
+    <h2>Materialer</h2>
+    <div class="files">
+      <a class="file" href="slides.pptx">
+        <strong>📊 Slides</strong>
+        <span>PowerPoint-præsentationen</span>
+      </a>
+      <a class="file" href="main.py">
+        <strong>🥔 Kartoffelkode</strong>
+        <span>Python-filen med koden</span>
+      </a>
+      <a class="file" href="Space-Gardeners-Opgavehaefte.pdf">
+        <strong>📄 Opgavehæfte</strong>
+        <span>Opgaver til eleverne (PDF)</span>
+      </a>
+    </div>
+
+    <footer>
+      Astro Pi 2026 · <a href="https://github.com/promorp/AstroPi2026">Se koden på GitHub</a>
+    </footer>
+  </main>
+</body>
+</html>
